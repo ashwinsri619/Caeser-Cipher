@@ -36,7 +36,7 @@ def ceaser():
     ans = decrypt(text)
     count = 5
   infoWindow = tk.Toplevel()
-  infoWindow.iconbitmap('C:/Users/Ashwin/PythonApps/favicon.ico')
+  infoWindow.iconbitmap('favicon.ico')
   infoWindow.title("Message Window")
   infoWindow.geometry("600x100")
   label1 = tk.Label(infoWindow, text=toDo+"ed Text: ", font=("Helvetica",15), anchor=tk.W)
