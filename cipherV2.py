@@ -43,7 +43,7 @@ root = tk.Tk()
 root.title("Ceaser Cipher V2.0")
 root.configure(background="black")
 root.geometry("550x190")
-root.iconbitmap('C:/Users/Ashwin/PythonApps/favicon.ico')
+root.iconbitmap('favicon.ico')
 
 textBox = tk.Entry(root, width=60, bd=2, font=("Calibri",12))
 textBox_label = tk.Label(root, text="Enter the text", bg="black", fg="white", font=("Helvetica",16))
